@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.profile_name{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+#profile_designation{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    background-color: transparent;
+    color: white;
+    border: white 2px solid;
+    outline: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    transition: 0.5s;
+}
+@media screen and (max-width: 800px){
+    #description{
+        width: 90% !important;
+    }
+}
